@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de numeros</title>
+</head>
+<body>
+    <h1>Análisis de 10 Números Enteros</h1>
+
+    <p>Por favor, ingresa 10 números enteros:</p>
+
+    <div>
+        <label for="valor1">Número 1:</label>
+        <input type="number" id="valor1" value="0"><br>
+
+        <label for="valor2">Número 2:</label>
+        <input type="number" id="valor2" value="0"><br>
+
+        <label for="valor3">Número 3:</label>
+        <input type="number" id="valor3" value="0"><br>
+
+        <label for="valor4">Número 4:</label>
+        <input type="number" id="valor4" value="0"><br>
+
+        <label for="valor5">Número 5:</label>
+        <input type="number" id="valor5" value="0"><br>
+
+        <label for="valor6">Número 6:</label>
+        <input type="number" id="valor6" value="0"><br>
+
+        <label for="valor7">Número 7:</label>
+        <input type="number" id="valor7" value="0"><br>
+
+        <label for="valor8">Número 8:</label>
+        <input type="number" id="valor8" value="0"><br>
+
+        <label for="valor9">Número 9:</label>
+        <input type="number" id="valor9" value="0"><br>
+
+        <label for="valor10">Número 10:</label>
+        <input type="number" id="valor10" value="0"><br>
+    </div>
+    <button onclick="analizarNumeros()">Analizar Números</button>
+
+    <div id="resultados" style="display: none; margin-top: 20px; border: 1px solid black; padding: 10px;">
+        <h2>Resultados del Análisis:</h2>
+        <p>Cantidad de valores negativos ingresados: <span id="negativos"></span></p>
+        <p>Cantidad de valores positivos ingresados: <span id="positivos"></span></p>
+        <p>Cantidad de múltiplos de 15: <span id="multiplos15"></span></p>
+        <p>Valor acumulado de los números pares: <span id="paresAcumulado"></span></p>
+    </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
