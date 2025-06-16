@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos de carros Ford</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de descuentos para carros Ford</h1>
+        <label for="carro">Selecciona el modelo del carro:</label>
+
+        <select>
+            <option value="FORD FIESTA">FORD FIESTA</option>
+            <option value="FORD FOCUS">FORD FOCUS</option>
+            <option value="FORD ESCAPE">FORD ESCAPE</option>
+        </select>
+        <label for="precio">Precio original del carro ($):</label>
+        <input type="number" min="0" value="23000">
+
+        <button onclick="calcularDescuento()">Calcular Descuento</button>
+
+        <div>
+            <p>Selecciona un carro y su precio para ver el descuento.</p>
+        </div>
+    </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
